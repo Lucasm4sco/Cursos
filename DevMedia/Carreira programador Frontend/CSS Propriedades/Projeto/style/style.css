@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+img {
+    width: 30%;
+    max-width: 200px;
+}
+
+main{
+    min-height: 80vh;
+}
+
+main, aside{
+    width: 90%;
+    margin: 2vw auto 0;
+}
+
+main *{
+    margin-top: 20px;
+}
+
+section, aside {
+    border-bottom: 2px solid gainsboro;
+    padding-bottom: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+p{
+    font-size: .8em;
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+a{
+    padding: 6px 20px;
+    text-decoration: none;
+    background-color: rgb(35, 93, 160);
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: .8em;
+}
+
+aside {
+    height: 50vh;
+}
+
+span {
+    font-weight: bold;
+}
+
+article {
+    padding: 10px 0 20px;
+}
