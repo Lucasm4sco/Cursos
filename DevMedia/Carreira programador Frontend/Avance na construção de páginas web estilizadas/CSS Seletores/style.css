@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #f4f0e5;
+}
+
+a{
+    color: rgb(77, 47, 23);
+    font-size: 1.05em;
+}
+
+.secao {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana;
+}
+
+header.secao{
+    border-bottom: 3px solid rgb(223, 190, 147);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    margin-bottom: 40px;
+}
+
+.imagem-logotipo{
+    max-width: 200px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+section {
+    font-size: 1.2em;
+}
+
+section h1{
+    color: rgb(46, 42, 41);
+}
+
+section h2 {
+    font-weight: 500;
+    color: rgb(233, 126, 38);
+    font-size: 1.1em;
+}
+
+section *, main h4{
+    margin: 20px 0;
+}
+
+section img {
+    width: 100%;
+}
+
+.secao-destaque{
+    background-color: rgb(218, 128, 25);
+    color: white;
+    padding: 1px 0 15px;
+}
+
+.secao-destaque img {
+    width: 60%;
+    min-width: 300px;
+}
+
+.secao-destaque h3 {
+    padding: 10px;
+    margin: 40px;
+    font-size: 1.8em;
+}
+
+.secao-destaque h4 {
+    font-size: 1.6em;
+}
+
+.secao-destaque p{
+    font-size: 1.1em;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+address * {
+    margin: 15px 0;
+    font-family: Verdana;
+    font-style: normal;
+}
+
+span {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px){
+    .secao {
+        width: 90%;
+    }
+}
