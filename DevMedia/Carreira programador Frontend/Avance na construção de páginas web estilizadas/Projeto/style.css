@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    height: 230px;
+    text-align: center;
+    background-color: rgba(106, 195, 255, 0.521);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.cabecalho img{
+    height: 90px;
+}
+
+.cabecalho ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.cabecalho a {
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: 2px underline rgba(83, 83, 83, 0.781);
+}
+
+.apresentacao {
+    margin: 40px auto;
+    width: 90%;
+    font-family: Tahoma;
+    text-align: center;
+    line-height: 25px;
+}
+
+.apresentacao .img-banner {
+    width: 100%;
+}
+
+.apresentacao div {
+    width: 100%;
+    margin: 50px auto 30px;
+}
+
+.apresentacao div * {
+    margin: 5px auto;
+}
+
+.apresentacao .subtitulo {
+    font-weight: 500;
+    font-size: 1.15em;
+    color: rgb(43, 146, 214)
+}
+
+.apresentacao .imagem-apresentando {
+    max-width: 500px;
+    width: 70%;
+}
+
+.texto {
+    text-align: justify;
+    width: 80%;
+}
+
+.apresentacao span {
+    font-weight: bold;
+
+    color: rgb(43, 146, 214);
+}
+
+.secao {
+    min-height: 300px;
+    color: white;
+    background-color: rgb(9, 144, 223);
+    text-align: center;
+    line-height: 20px;
+    font-size: 1em;
+    padding: 1px;
+    font-family: tahoma;
+}
+
+.secao p {
+    margin: auto;
+    max-width: 500px;
+}
+
+.secao span {
+    font-weight: bold;
+    color: rgb(255, 255, 40);
+}
+
+.secao > * {
+    padding-top: 10px;
+    margin: 20px;
+}
+
+.secao ul{
+    width: 50px;
+    text-align: start;
+    margin: 40px auto 40px;
+}
+
+.corretores > *{
+    margin: 5px auto;
+}
+
+.corretores h2 {
+    color: rgb(19, 119, 177);
+    padding-top: 10px;
+    margin: 20px;
+}
+
+.contato {
+    text-align: center;
+}
+
+.contato iframe{
+    border:0; 
+    width: 80%; 
+    max-width: 800px; 
+    height: 30vw; 
+    max-height: 350px;
+}
+
+.contato p {
+    margin: 10px auto 20px;
+}
+
+.contato p {
+    background-color: rgb(24, 20, 18);
+    padding: 10px;
+    max-width:none;
+    width: fit-content;
+}
+
+.contato ul{
+    width: 300px;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.contato li {
+    margin: 20px 0;
+}
+
+.contato a {
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    color: rgb(43, 146, 214);
+}
