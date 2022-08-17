@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url('img/capa.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 600px;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+h1, h2 {
+    padding: 10px;
+    color: white;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+h1 {
+    background-color: black;
+}
+
+h2 {
+    background-color: red;
+}
+
+.informacoes {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.informacoes img {
+    width: 200px;
+    height: 250px;
+}
+
+p{
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+span {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 25px;
+}
+
+h3{
+    padding: 10px;
+}
+
+.secao-divulgacao {
+    background-image: url("img/img1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+}
