@@ -1,0 +1,121 @@
+.section {
+    display: flex;
+}
+
+.section > * {
+    width: 50%;
+}
+
+.banner {
+    padding: 60px 0 10px;
+    height: 95vh;
+    background-color: #F9DB79;
+}
+
+.content-banner {
+    max-width: 1024px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo-sorvete{
+    background-image: url('/public/assets/banner-home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 4px 2px rgba(37, 36, 36, 0.822);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inverso {
+    flex-direction: row-reverse;
+}
+
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2.2em;
+}
+
+.content-section span {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.content-section p {
+    width: 60%;
+    text-align: justify;
+    margin: 30px;
+}
+
+@media only screen and (max-width: 768px){
+
+    .fundo-sorvete {
+        background-size: cover;
+    }
+
+    h1{
+        font-size: 3.5em;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .section > *{
+        width: 100%;
+    }
+
+    .content-section {
+        padding: 100px 0;
+    }
+
+    .content-section p {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 436px){
+    .content-section {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 2.8em;
+    }
+
+    h2{
+        font-size: 1.8em;
+    }
+
+    .content-section p {
+        width: 90%;
+    }
+    .banner {
+        height: 80vh;
+    }
+}

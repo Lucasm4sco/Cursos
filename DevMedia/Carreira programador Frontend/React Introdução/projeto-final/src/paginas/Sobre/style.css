@@ -1,0 +1,50 @@
+.banner-sobre{
+    background-image: url('/public/assets/banner-sobre.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-sobre {
+    max-width: 1024px;
+    margin: auto;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.section-sobre .text-center {
+    text-align: center;
+    margin: 20px 0 0;
+    width: 100%;
+}
+
+.section-sobre h2{
+    text-transform: capitalize;
+}
+
+.section-sobre span {
+    padding-bottom: 20px;
+}
+
+.section-imagens {
+    display: flex;
+}
+
+.section-imagens img {
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px){
+    .section-imagens{
+        flex-direction: column;
+    }
+    .section-imagens img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 432px){
+    .section-sobre{
+        padding: 60px 10px;
+    }
+}

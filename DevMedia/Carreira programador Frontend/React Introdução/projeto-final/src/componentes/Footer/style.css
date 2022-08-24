@@ -1,0 +1,51 @@
+footer {
+    background-color: #000;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-style: normal;
+    padding: 100px 20px;
+    flex-wrap: wrap;
+}
+
+.footer-content img {
+    height: 100px;
+}
+
+.box-footer {
+    width: 200px;
+    line-height: 26px;
+    flex-shrink: 0;
+    font-size: .95em;
+}
+
+.box-footer h3 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 3px;
+}
+
+.autor {
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 768px){
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    .box-footer {
+        width: 100%;
+        margin: 15px auto;
+    }
+}
