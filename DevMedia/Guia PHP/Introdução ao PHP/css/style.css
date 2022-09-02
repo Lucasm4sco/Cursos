@@ -1,0 +1,103 @@
+main {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.painel {
+    min-width: 300px;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px;
+    min-height: 260px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.479);
+    overflow: hidden;
+    line-height: 20px;
+}
+
+h2 {
+    margin: 0;
+    background-color: rgba(143, 214, 241, 0.719);
+    color: rgb(23, 109, 167);
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+
+.conteudo-painel {
+    padding: 10px ;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campoTexto {
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    border: 1px solid rgba(143, 139, 139, 0.774);
+    border-top: 2px solid rgb(143, 139, 139);
+    border-left: 2px solid rgb(143, 139, 139);
+}
+
+form {
+    padding: 10px;
+}
+
+form * {
+    margin: 8px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+.botao {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(23, 109, 167);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.resultado {
+    text-align: center;
+}
+
+.resultado ul {
+    width: fit-content;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.resultado li {
+    margin: 5px 0;
+}
+
+a.botao {
+   align-self: center;
+   text-decoration: none;
+}
+
+.sucesso {
+    height: 80%;
+    width: 80%;
+    margin: auto auto 10px;
+    background-color: rgba(148, 219, 116, 0.733);
+    color: rgb(14, 39, 14);
+}
+
+.erro {
+    background-color: rgb(229 162 162 / 86%);
+    margin: auto auto 10px;
+    padding: 5px 20px;
+    font-weight: bold;
+    color: rgb(161 28 28);
+}
