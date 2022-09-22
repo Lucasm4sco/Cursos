@@ -1,0 +1,16 @@
+.logo-devmedia {
+    width: 110px;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.card-header {
+    border: 1px solid rgba(204, 198, 198, 0.753);
+    border-radius: 5px;
+}
+
+#form {
+    padding-top: 30px;
+}
