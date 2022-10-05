@@ -1,0 +1,55 @@
+header {
+    background-color: rgb(104, 158, 240);
+    height: 70px;
+    padding: 0 5px;
+}
+
+header .container {
+    display: flex;
+    max-width: 1024px;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Peralta', cursive;
+    color: rgb(251, 249, 253);
+    font-size: 32px;
+}
+
+.mudar-animal {
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(235, 207, 236);
+    gap: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.mudar-animal img {
+    height: 100%;
+}
+
+@media only screen and (max-width: 381px){
+    header {
+        height: 100px;
+    }
+
+    header .container{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .mudar-animal {
+        height: 32px;
+        padding: 5px 2px;
+        gap: 5px;
+    }
+}

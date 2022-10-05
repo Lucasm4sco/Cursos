@@ -1,0 +1,11 @@
+.banner {
+    max-width: 1024px;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    object-fit: contain;
+}
