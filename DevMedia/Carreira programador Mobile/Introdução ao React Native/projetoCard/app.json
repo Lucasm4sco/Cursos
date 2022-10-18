@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "projetoCard",
+    "slug": "projetoCard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/perfil.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": null,
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": null,
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
