@@ -5,13 +5,13 @@ const estilo = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#a5e3ce',
         padding: 5
     },
     title: {
         fontSize: 22,
         fontWeight: '800',
-        marginBottom: 10
+        marginBottom: 10,
+        textAlign: 'center'
     },
     descricao: {
         textAlign: 'center',
@@ -19,7 +19,7 @@ const estilo = StyleSheet.create({
         lineHeight: 20,
         marginBottom: 25
     },
-    cardRestaurant: {
+    card: {
         width: '80%',
         maxWidth: 400,
         padding: 8,
@@ -29,16 +29,15 @@ const estilo = StyleSheet.create({
         borderRadius: 5,
         marginBottom: 8
     },
-    imgRestaurant:{
+    imgCard:{
         width: '100%',
         height: 80,
         resizeMode: 'cover'
     },
-    nameRestaurant: {
+    nameCard: {
         fontWeight: '700',
         lineHeight: 30
     }
-
 });
 
 export default estilo;

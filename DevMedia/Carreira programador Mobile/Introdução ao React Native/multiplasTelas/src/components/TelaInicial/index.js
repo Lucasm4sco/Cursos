@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, Image, Pressable } from "react-native";
 
-import estilo from "./estilo";
+import estilo from "../../estiloComponents/estiloTelaInicial";
 import imgParaty from '../../../assets/01.png'
 
 const TelaInicial = ({navigation}) => (
@@ -22,14 +22,14 @@ const TelaInicial = ({navigation}) => (
 
             <Pressable
                 style={estilo.button}
-                onPress={() => navigation.navigate('Restaurantes')}
+                onPress={() => navigation.navigate('Passeios')}
             >
                 <Text style={estilo.textButton}>Ver Passeios</Text>
             </Pressable> 
 
             <Pressable
                 style={estilo.button}
-                onPress={() => navigation.navigate('Restaurantes')}
+                onPress={() => navigation.navigate('Hospedagens')}
             >
                 <Text style={estilo.textButton}>Ver Hospedagens</Text>
             </Pressable>
