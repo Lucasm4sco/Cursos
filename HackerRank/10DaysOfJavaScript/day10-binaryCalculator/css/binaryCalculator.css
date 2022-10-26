@@ -1,0 +1,38 @@
+body {
+    width: 33%;
+}
+
+#res {
+    background: lightgray;
+    border: 2px solid;
+    height: 48px;
+    font-size: 20px;
+}
+
+#btns {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+button {
+    background: black;
+    color: red;
+    height: 36px;
+    width: 25%;
+    font-size: 18px;
+    border: 1px solid gray;
+    float: left;
+}
+
+#btn0, #btn1 {
+    background: lightgreen;
+    color: brown;
+}
+
+#btnClr, #btnEql {
+    background: darkgreen;
+    color: white;
+}
+
+
