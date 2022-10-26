@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Button</title>
+        <style>
+            #id {
+                width: 96px;
+                height: 48px;
+                font-size: 24px
+            }
+        </style>
+    </head>
+    <body>
+        <button id="btn">0</button>
+    </body>
+    <script>
+        const button = document.querySelector('#btn');
+
+        button.addEventListener('click', () => {
+            button.innerHTML = Number(button.innerHTML) + 1
+        })
+    </script>
+</html>
